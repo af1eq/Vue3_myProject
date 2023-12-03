@@ -1,0 +1,87 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+  
+ 
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #640f96;
+    overflow-x: hidden;
+    background-image: linear-gradient(90deg, #d13bb0, #360f34);
+  }
+  
+  
+  #app {
+    text-align: center;
+  }
+  
+  
+  
+  input {
+    width: 40%; 
+    height: 49px;
+    font-size: 15px;
+    border: 2px solid rgb(184, 51, 189);
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px #c2c2c3, -5px -5px 5px #fff;
+  }
+  
+  button {
+    height: 55px;
+    width: 342px;
+    outline: none;
+    border-radius: 7px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #b219b8;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 40px;
+    top: 2.5px;
+    left: -26px;
+    box-shadow: 5px 5px 5px #c2c2c3, -5px -5px 5px #fff;
+    
+  }
+  
+  ul {
+    width: 66.3%;
+    margin-left: 220px;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    margin-left: 230px;
+    
+  }
+
+ 
+  li {
+    width: 95%;
+    height: 23px;
+    font-size: 15px;
+    text-align: left;
+    
+    background-color: #fff;
+    margin-left: 25px;
+    margin-bottom: 26px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+
+    box-shadow: 5px 5px 5px #c2c2c3, -5px -5px 5px #fff;
+  }
+  
+  .btn:hover {
+    background-color: rgba(218, 19, 184, 0.57);
+    filter: brightness(120%);
+    box-shadow: inset 5px 5px 5px #d1d1d5, -5px -5px 5px #fff;
+  }
